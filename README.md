@@ -10,7 +10,7 @@ This little project is based on a neat tutorial by Matthew Cheok on implementing
 
 **Update:** Funny story: this harmless little project led to a very brief moment of Twitter celebrity. 
 
-Soon after posting this playground, tweeted about an initialization technique I learned from persuing Erica Sadun's Github, which I used for my re-factoring of this project. Namely, you can initialize a Swift constant without having to use intermediate property declarations within the initializing closure. Instead, you can refer to the initialized property using positional references, like so:
+Soon after posting this playground, I tweeted about an initialization technique learned from persuing Erica Sadun's Github, which I used for my re-factoring of this project. Namely, you can initialize a Swift constant without having to use intermediate property declarations within the initializing closure. Instead, you can refer to the initialized property using positional references, like so:
 
 ```
    let strokeStartAnimation: CAAnimation = {
