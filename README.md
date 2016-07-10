@@ -26,6 +26,6 @@ Soon after posting this playground, I tweeted about an initialization technique 
         }(CABasicAnimation(keyPath: "strokeStart"))
 ```
 
-It's a minor tweak, but makes the declaration a lot more elegant to read (and to type). Apparently, the iOS community thought so too - enough to get [re-tweeted](https://twitter.com/nick_skmbo/status/735109452827877377) over 100 times! In fact, it caused enough of a stir in the iOS-Twitterverse that within a day, [Natasha The Robot had written a whole blog post about it](https://www.natashatherobot.com/swift-configuring-a-constant-using-shorthand-argument-names/)!
+It's a minor tweak, but makes the declaration a lot more elegant to read (and to write). Apparently, the iOS community thought so too - enough to get [re-tweeted](https://twitter.com/nick_skmbo/status/735109452827877377) over 100 times! In fact, it caused enough of a stir in the iOS-Twitterverse that within a day, [Natasha The Robot had written a whole blog post about it](https://www.natashatherobot.com/swift-configuring-a-constant-using-shorthand-argument-names/)!
 
 Happy that everyone had fun with this tidbit. Makes me wonder how many of these little gems are still yet to be discovered (or popularized) as a result of a deeper understanding of the Swift language and its compiler.
